@@ -1,0 +1,21 @@
+.cabecalho {
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 90px;
+    background-color: blue;
+    color: white;
+}
+
+nav {
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 40px;
+    background-color: darkgrey;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+}

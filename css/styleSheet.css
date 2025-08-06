@@ -6,6 +6,14 @@
     color: white;
 }
 
+h1 {
+    text-align: center;
+    background-color: gray;
+    color: black;
+    font-size: 90px;
+    padding: 50px;
+}
+
 nav {
     box-sizing: border-box;
     text-align: center;
@@ -18,4 +26,44 @@ a {
     text-decoration: none;
     color: black;
     padding: 20px;
+}
+
+#divTabela {
+    display: flex;
+    justify-content: center;
+    background-color: green;
+}
+
+#tabelaDemonstracao {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(1, 243, 1);
+}
+
+.tituloExercicio2 {
+    text-align: center;
+    font-size: 30px;
+    text-decoration: dashed;
+}
+
+#formulario {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+#select {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(3, 55, 212);
+    padding: 30px;
+}
+
+#imagem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    background-color: darkgray;
 }

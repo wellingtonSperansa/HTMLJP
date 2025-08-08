@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Aula HTML JP">
+    <meta name="keywords" content="mateiral, apoio, Alexsandro Zapani, Senac, Jovem Programador">
+    <meta name="author" content="Wellington Anthony Speransa">
+    <link rel="stylesheet" href="/css/styleSheet.css">
+    <title>Exercício 3</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Exercicio 3</h1>
+    </header>
+    <div id="boasPraticas">
+        1. Classes (class) <br>
+        Uso: Classes são usadas para aplicar estilos ou comportamentos a múltiplos elementos.
+        <br>
+        Boas práticas: <br>
+
+        Use nomes descritivos que indiquem a função ou o propósito do elemento (ex.: menu-principal, botao-enviar).
+        <br>
+        Utilize o padrão kebab-case (palavras separadas por hífens), como caixa-de-texto.
+        <br>
+        Evite caracteres especiais, espaços ou números no início do nome.
+        <br>
+        Prefira nomes genéricos para reutilização (ex.: card, titulo, container).
+        <br>
+        2. IDs (id)
+        <br>
+        Uso: IDs são únicos e devem ser aplicados a apenas um elemento por página.
+        <br>
+        Boas práticas:
+        <br>
+        Use nomes únicos e específicos (ex.: formulario-contato, cabecalho-site).
+        <br>
+        Utilize o padrão camelCase (primeira palavra minúscula, palavras seguintes com inicial maiúscula), como
+        <br>
+        menuPrincipal.
+        <br>
+        Evite reutilizar o mesmo ID em diferentes elementos.
+        <br>
+        Não use IDs para estilização, a menos que seja absolutamente necessário (prefira classes).
+    </div>
+    <div class="tituloExercicio3">
+        <h2>Aqui vou apresentar uma tabela copia de uma informação nutricional.</h2>
+    </div>
+    <hr>
+    <div id="">
+        <table id="" width="50%" border="1">
+            <tr>
+                <td colspan="4">IFNORMAÇÃO NUTRICIONAL</td>
+            </tr>
+            <tr>
+                <td colspan="4" style="text-align: left;">Porções por embalagem: 5 <br> Porção:1,6g (1/2 colher de chá)
+                </td>
+            </tr>
+            <tr>
+                <th width="30%">Itens</th>
+                <th>100ml</th>
+                <th>1,6g</th>
+                <th>%VD</th>
+            </tr>
+            <tr>
+                <td style="text-align: left;">valor energético (kcal)</td>
+                <td>3</td>
+                <td>6</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td style="text-align: left;">Caboidratos (g)</td>
+                <td>0,5</td>
+                <td>0,9</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td style="text-align: left;">Açucares totais (g)</td>
+                <td>0</td>
+                <td>0,1</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td style="text-align: left;">Açúcares adicionados (g)</td>
+                <td>0</td>
+                <td>0,1</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td colspan="4" width="100%" style="text-align:left">Não contém quantidades significativas de proteinas,
+                    gorduras totais,
+                    gorduras
+                    saturadas, gorduras
+                    trans,
+                    fibras alimentares e sódio.</td>
+            </tr>
+            <tr>
+                <td colspan="4" width="100%" style="text-align:left">Percentual de valores diários
+                    fornecidos
+                    pela
+                    porção.<br>
+                    No alimento pronto para o consumo.</td>
+            </tr>
+        </table>
+    </div>
+    <br>
+    <div class="tituloExercicio3">
+        <h2 style="color:greenyellow;">Aqui vou apresentar um formulário</h2>
+    </div>
+    <br>
+    <div id="">
+        <br>
+        <form action="cadastro.php" method="post" class="formularioAula">
+            <n style="font-size: 30px;">Cadastro de Conta</n> <br>
+            <label for="login">Login:</label>
+            <input id="login" type="text" placeholder="Digite Aqui Seu Login" required>
+            <br>
+            <label for="nome">Nome:</label>
+            <input id="nome" type="text" placeholder="Digite seu nome aqui" required>
+            <br>
+            <label for="sobrenome">Sobrenome:</label>
+            <input id="sobrenome" type="text" placeholder="Digite Seu Sobrenome Aqui" required>
+            <br>
+            <label for="senha" aria-placeholder="Digite Sua Senha Aqui">Senha:</label>
+            <input id="senha" type="password" placeholder="Digite Sua Senha Aqui" required>
+            <br>
+            <label for="email" aria-placeholder="Digite Seu E-mail Aqui">E-mail:</label>
+            <input id="email" type="email" placeholder="Digite Aqui Seu E-mail" required>
+            <br>
+            Genero:
+            <input type="radio" id="generomas" name="genero" value="masculino">
+            <label for="generomas">Masculino</label>
+            <input type="radio" id="generofe" name="genero" value="feminino">
+            <label for="generofe">Feminino</label>
+            <br>
+            <input type="submit" value="Enviar Cadastro">
+            <br>
+        </form>
+    </div>
+    <div class="tituloExercicio3">
+        <h2>Aplicação do Select</h2>
+    </div>
+    <div id="select">
+        <form action="cadastro.php" method="post">
+            Qual sua cor Favorita?<br>
+            <select name="cores" id="cor">
+                <option disabled selected value="vazio">Selecione uma cor</option>
+                <option value="Vermelho">Vermelho</option>
+                <option value="Azul">Azul</option>
+                <option value="Amarelo">Amarelo</option>
+                <option value="verde">verde</option>
+                <option value="Roxo">Roxo</option>
+            </select>
+        </form>
+    </div>
+    <br>
+    <div id="imagem">
+        <h2>Aplicando Imagem</h2>
+        <br>
+        <img style="max-width: 1000px;" src="/img/Lancer Mapeado.jpg" usemap="#image-map">
+        <map name="image-map">
+            <area target="_blank" alt="Detran" title="Detran" href="https://www.detran.sc.gov.br/"
+                coords="406,281,318,257" shape="rect">
+            <area target="_blank" alt="Comprar Pneus" title="Comprar Pneus" href="https://pneustore.com.br"
+                coords="494,224,505,246,505,262,502,283,496,305,486,318,471,324,455,321,456,301,457,284,460,264,463,243,467,237,474,225,485,215"
+                shape="poly">
+            <area target="" alt="" title="" href="" coords="" shape="0">
+        </map>
+    </div>
+    <footer sty>
+        <a style="background-color: greenyellow; display: block; text-align: center; font-size: 50px; color: rgb(248, 65, 95);"
+            href="../index.html" class="botaoHome">Voltar</a>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,74 @@
+header {
+    box-sizing: border-box;
+    background-color: black;
+    padding: 100px;
+}
+
+nav {
+    background-color: aqua;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+}
+
+.menu {
+    opacity: 0.7;
+    background-color: blueviolet;
+    box-sizing: border-box;
+    padding: 60px;
+    border-radius: 10%;
+    color: white;
+    display: inline-block;
+    margin: 10px;
+    transition: 0.3s;
+}
+
+.menu:hover {
+    opacity: 1;
+    background-color: indigo;
+}
+
+.textos {
+    background-color: yellowgreen;
+    padding: 20px;
+    display: flex;
+    gap: 15px;
+    margin-right: 170px;
+    /* espaço para não ficar atrás do aside */
+}
+
+.paragrafos {
+    opacity: 0.7;
+    background-color: violet;
+    border-radius: 5%;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.paragrafos:hover {
+    opacity: 1.0;
+    background-color: darkviolet;
+    color: white;
+}
+
+aside {
+    background-color: rgb(201, 231, 32);
+    padding: 20px;
+    width: 150px;
+    /* largura do aside */
+    height: 100vh;
+    /* ocupa a altura toda */
+    position: fixed;
+    /* fixo na tela */
+    top: 0;
+    right: 0;
+    /* gruda à direita */
+    box-shadow: -2px 0 8px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    background-color: chocolate;
+    padding: 100px;
+    margin-right: 170px;
+    /* também respeita o aside */
+}
